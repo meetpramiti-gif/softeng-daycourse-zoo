@@ -13,3 +13,8 @@ class Panda(Animal):
         return "Is the Dragon Warrior!"
 
 
+def test_sound():
+   assert Panda().sound() == "Haiya!"
+
+def test_action():
+   assert Panda().action() == "Is the Dragon!"
